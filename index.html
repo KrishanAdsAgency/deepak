@@ -110,7 +110,7 @@ const interval = setInterval(() => {
   seconds--;
   display.textContent = seconds;
 
-  if (seconds <= 20) {
+  if (seconds <= 0) {
     clearInterval(interval);
     window.location.href = telegramURL;
   }
