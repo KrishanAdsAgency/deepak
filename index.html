@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DEEPAK WADHWA OFFICIAL</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--accent:#22d3ee;--accent2:#0891b2;--bg:#020817}
-body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(ellipse at top,rgba(34,211,238,.17),transparent 65%),var(--bg);font-family:Poppins,sans-serif;color:#fff}
-.card{width:100%;max-width:420px;padding:26px 22px;background:linear-gradient(150deg,#0b2038,#030b19);border:1px solid rgba(34,211,238,.4);border-radius:26px;box-shadow:0 20px 70px #000b,0 0 30px #22d3ee14;text-align:center}
-.tag{display:inline-block;padding:8px 14px;border:1px solid #22d3ee55;border-radius:20px;color:#a5f3fc;background:#22d3ee0d;font-size:10px;font-weight:800;letter-spacing:1px;margin-bottom:20px}
-.avatar{width:150px;height:150px;margin:0 auto 20px;padding:4px;border-radius:50%;background:linear-gradient(135deg,#cffafe,#22d3ee,#0e7490);box-shadow:0 0 30px #22d3ee44}
-.avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:3px solid #071629;display:block}
-h1{font-size:25px;font-weight:800;line-height:1.3;margin-bottom:9px}
-.sub{font-size:10px;font-weight:800;letter-spacing:1px;color:#22d3ee;margin-bottom:22px}
-.chart{height:42px;display:flex;align-items:flex-end;justify-content:center;gap:7px;margin:0 auto 23px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(ellipse at top,#12384b,#020817 65%);font-family:Poppins,sans-serif;color:#fff}
+.card{width:100%;max-width:420px;padding:28px 22px;text-align:center;background:linear-gradient(145deg,#0b2038,#030b19);border:1px solid #22d3ee66;border-radius:26px;box-shadow:0 20px 70px #000b,0 0 30px #22d3ee18}
+.tag{display:inline-block;margin-bottom:20px;padding:8px 14px;border:1px solid #22d3ee55;border-radius:20px;color:#a5f3fc;background:#22d3ee0d;font-size:10px;font-weight:800;letter-spacing:1px}
+.avatar{width:150px;height:150px;margin:0 auto 18px;padding:4px;border-radius:50%;background:linear-gradient(135deg,#cffafe,#22d3ee,#0e7490);box-shadow:0 0 28px #22d3ee44}
+.avatar img{width:100%;height:100%;display:block;object-fit:cover;border:3px solid #071629;border-radius:50%}
+h1{font-size:25px;line-height:1.3;font-weight:800;margin-bottom:8px}
+.sub{font-size:10px;font-weight:800;letter-spacing:1px;color:#22d3ee;margin-bottom:20px}
+.chart{height:40px;display:flex;align-items:flex-end;justify-content:center;gap:7px;margin-bottom:22px}
 .bar{width:8px;border-radius:3px;background:linear-gradient(#67e8f9,#0891b2);animation:move 1.4s infinite alternate}
-.bar:nth-child(1){height:18px}.bar:nth-child(2){height:29px;animation-delay:.1s}.bar:nth-child(3){height:23px;animation-delay:.2s}.bar:nth-child(4){height:39px;animation-delay:.3s}.bar:nth-child(5){height:26px;animation-delay:.4s}.bar:nth-child(6){height:34px;animation-delay:.5s}.bar:nth-child(7){height:41px;animation-delay:.6s}
+.bar:nth-child(1){height:18px}
+.bar:nth-child(2){height:29px;animation-delay:.1s}
+.bar:nth-child(3){height:23px;animation-delay:.2s}
+.bar:nth-child(4){height:39px;animation-delay:.3s}
+.bar:nth-child(5){height:26px;animation-delay:.4s}
+.bar:nth-child(6){height:34px;animation-delay:.5s}
+.bar:nth-child(7){height:41px;animation-delay:.6s}
 @keyframes move{to{transform:scaleY(.7)}}
-.features{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:22px}
+.features{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:20px}
 .feature{font-size:9px;font-weight:700;padding:8px 10px;border-radius:9px;border:1px solid #22d3ee35;background:#22d3ee0b;color:#a5f3fc}
-.timer{font-size:12px;color:#dbeafe;margin-bottom:17px}
+.timer{font-size:12px;color:#dbeafe;margin-bottom:16px}
 .timer strong{color:#22d3ee;font-size:21px}
-.join{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 12px;border:0;border-radius:40px;background:linear-gradient(135deg,#67e8f9,#22d3ee,#0891b2);color:#031321;font-family:inherit;font-size:14px;font-weight:800;cursor:pointer;text-decoration:none;box-shadow:0 6px 25px #22d3ee35;transition:.2s}
+.join{width:100%;display:flex;align-items:center;justify-content:center;gap:9px;padding:15px 12px;border-radius:40px;background:linear-gradient(135deg,#67e8f9,#22d3ee,#0891b2);color:#031321;font-size:14px;font-weight:800;text-decoration:none;box-shadow:0 6px 25px #22d3ee35;transition:.2s}
 .join:hover{transform:translateY(-2px);box-shadow:0 9px 30px #22d3ee55}
 .join svg{width:20px;height:20px}
 .note{font-size:10px;color:#9ca3af;margin:14px 0 18px}
@@ -41,9 +46,8 @@ hr{border:0;border-top:1px dashed #22d3ee30;margin:14px 0}
 
   <div class="avatar">
     <img
-      src="data:image/jpeg;base64,PASTE_COMPLETE_BASE64_IMAGE_HERE"
-      alt="DEEPAK WADHWA OFFICIAL"
-    >
+      src="data:image/jpeg;base64,REPLACE_WITH_FULL_IMAGE_BASE64"
+      alt="DEEPAK WADHWA OFFICIAL">
   </div>
 
   <h1>DEEPAK WADHWA OFFICIAL</h1>
@@ -52,8 +56,7 @@ hr{border:0;border-top:1px dashed #22d3ee30;margin:14px 0}
   <div class="chart" aria-hidden="true">
     <span class="bar"></span><span class="bar"></span>
     <span class="bar"></span><span class="bar"></span>
-    <span class="bar"></span><span class="bar"></span>
-    <span class="bar"></span>
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
   </div>
 
   <div class="features">
