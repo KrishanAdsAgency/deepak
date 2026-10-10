@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEEPAK WADHWA OFFICIAL</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#22d3ee;--gold2:#0891b2;--gold3:#0e7490;--navy:#061a2b;--card1:rgba(8,30,52,.98);--card2:rgba(2,12,25,.99);--border:rgba(34,211,238,.38);--white:#fff}
+html,body{min-height:100vh;font-family:"Poppins",sans-serif;color:var(--white);background:radial-gradient(ellipse 100% 80% at 50% 50%,rgba(34,211,238,.14),transparent 70%),#020817}
+body{display:flex;justify-content:center;align-items:center;padding:16px}
+.card{width:100%;max-width:390px;padding:25px 22px 22px;background:linear-gradient(150deg,var(--card1),var(--card2));border:1px solid var(--border);border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.85),0 0 45px rgba(34,211,238,.12);animation:fadeIn .6s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.left-col{text-align:center}
+.agency{display:inline-block;margin-bottom:12px;color:#a5f3fc;font-size:9px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
+.top-badge{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:8px 12px;margin-bottom:18px;border-radius:15px;background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.30);color:#a5f3fc;font-size:11px;font-weight:800;letter-spacing:.5px}
+.avatar-wrap{position:relative;width:150px;height:150px;margin:0 auto 18px}
+.avatar-ring{position:absolute;inset:-5px;border-radius:50%;background:conic-gradient(#cffafe,#22d3ee,#0e7490,#22d3ee,#cffafe);animation:spin 5s linear infinite;box-shadow:0 0 28px rgba(34,211,238,.42)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.avatar-wrap img{position:relative;z-index:2;width:100%;height:100%;display:block;object-fit:cover;border-radius:50%;border:4px solid #071a35}
+.name{font-size:24px;line-height:1.2;font-weight:800;color:#fff;letter-spacing:.5px;margin-bottom:6px;text-shadow:0 0 15px rgba(34,211,238,.25)}
+.trusted{color:var(--gold);font-size:10px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;margin-bottom:16px}
+.chart{height:45px;display:flex;align-items:flex-end;justify-content:center;gap:6px;margin-bottom:20px}
+.candle{width:8px;border-radius:2px;background:linear-gradient(to top,#0e7490,#22d3ee);animation:candleMove 1.5s ease-in-out infinite}
+.candle:nth-child(1){height:20px}
+.candle:nth-child(2){height:32px;animation-delay:.1s}
+.candle:nth-child(3){height:25px;animation-delay:.2s}
+.candle:nth-child(4){height:40px;animation-delay:.3s}
+.candle:nth-child(5){height:29px;animation-delay:.4s}
+.candle:nth-child(6){height:36px;animation-delay:.5s}
+.candle:nth-child(7){height:43px;animation-delay:.6s}
+@keyframes candleMove{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.75)}}
+.features{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin-bottom:18px}
+.feat{padding:7px 10px;border-radius:10px;font-size:9px;font-weight:800}
+.feat-gold{color:#a5f3fc;background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.25)}
+.feat-blue{color:#93c5fd;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25)}
+.feat-green{color:#86efac;background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.22)}
+.countdown-row{text-align:center;color:rgba(255,255,255,.65);font-size:12px;font-weight:600;margin-bottom:15px}
+.countdown-row .num{color:var(--gold);font-size:22px;font-weight:800;text-shadow:0 0 12px rgba(34,211,238,.5)}
+.cta-btn{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:15px 20px;border:0;border-radius:50px;cursor:pointer;background:linear-gradient(135deg,var(--gold),var(--gold2),var(--gold3));color:#07111f;font-family:"Poppins",sans-serif;font-size:15px;font-weight:800;box-shadow:0 5px 22px rgba(34,211,238,.30);animation:buttonPulse 2.2s ease-in-out infinite;transition:.2s ease}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(34,211,238,.50)}
+.cta-btn:active{transform:scale(.97)}
+.cta-btn::after{content:"";position:absolute;top:0;left:-100%;width:55%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);animation:shimmer 2.8s infinite}
+@keyframes buttonPulse{0%,100%{box-shadow:0 5px 20px rgba(34,211,238,.25)}50%{box-shadow:0 7px 30px rgba(34,211,238,.48)}}
+@keyframes shimmer{0%{left:-100%}60%{left:130%}100%{left:130%}}
+.telegram-icon{width:19px;height:19px}
+.join-text{text-align:center;margin-top:11px;margin-bottom:15px;color:rgba(255,255,255,.35);font-size:10.5px}
+.join-text span{color:#a5f3fc;font-weight:800}
+.agency-bottom{text-align:center;margin-top:13px;margin-bottom:13px;color:rgba(255,255,255,.45);font-size:9px;font-weight:700;letter-spacing:1px}
+.agency-bottom span{color:var(--gold);font-weight:800}
+.divider{border:0;border-top:1px dashed rgba(34,211,238,.18);margin-bottom:12px}
+.disclaimer{color:rgba(255,255,255,.32);text-align:center;font-size:9.5px;line-height:1.7}
+@media (min-width:768px){
+.card{max-width:820px;display:flex;align-items:center;gap:50px;padding:48px 55px;border-radius:32px}
+.left-col{flex:0 0 285px;padding-right:50px;border-right:1px solid rgba(34,211,238,.12)}
+.right-col{flex:1}
+.avatar-wrap{width:165px;height:165px}
+.name{font-size:28px}
+.features{justify-content:flex-start}
+.countdown-row,.join-text,.agency-bottom,.disclaimer{text-align:left}
+.disclaimer{font-size:10px}
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="left-col">
+    <div class="agency">DEEPAK WADHWA OFFICIAL</div>
+    <div class="top-badge">📈 TRADING COMMUNITY</div>
+    <div class="avatar-wrap">
+      <div class="avatar-ring"></div>
+      <img src="data:image/jpeg;base64,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" alt="Deepak Wadhwa Official Logo">
+    </div>
+    <div class="name">DEEPAK WADHWA OFFICIAL</div>
+    <div class="trusted">✦ DEEPAK WADHWA OFFICIAL ✦</div>
+    <div class="chart">
+      <div class="candle"></div><div class="candle"></div><div class="candle"></div>
+      <div class="candle"></div><div class="candle"></div><div class="candle"></div><div class="candle"></div>
+    </div>
+  </div>
 
+  <br>
+
+  <div class="right-col">
+    <div class="features">
+      <span class="feat feat-gold">📈 MARKET INSIGHTS</span>
+      <span class="feat feat-blue">📲 TELEGRAM</span>
+      <span class="feat feat-green">🚀 JOIN FREE</span>
+    </div>
+
+    <br>
+
+    <div class="countdown-row">
+      🚀 AUTOMATIC TELEGRAM VISIT IN <span class="num" id="timer">6</span>s
+    </div>
+
+    <br>
+
+    <button class="cta-btn" onclick="visitTelegram()">
+      <svg class="telegram-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-2.04 9.61c-.153.676-.557.84-1.13.522l-3.1-2.284-1.496 1.44c-.165.165-.304.304-.624.304l.223-3.164 5.76-5.2c.25-.223-.054-.347-.388-.124L7.08 14.608l-3.06-.955c-.665-.208-.68-.665.138-.984l11.94-4.604c.554-.2 1.038.136.464.183z"/>
+      </svg>
+      VISIT TELEGRAM NOW
+    </button>
+
+    <br>
+
+    <div class="join-text">📢 Join <span>DEEPAK WADHWA OFFICIAL</span></div>
+    <div class="agency-bottom">DEEPAK WADHWA OFFICIAL</div>
+    <hr class="divider">
+    <div class="disclaimer">
+      Market information is for educational purposes only and is not financial advice.
+      Trading involves risk; verify information independently before making decisions.
+    </div>
+  </div>
+</div>
+
+<script>
+const telegramURL = "https://t.me/+KmYR9whr7BEyOTc1";
+let countdown = 6;
+const timer = document.getElementById("timer");
+
+function visitTelegram(){
+  window.location.href = telegramURL;
+}
+
+const countdownInterval = setInterval(function(){
+  countdown--;
+  if(timer) timer.textContent = countdown;
+
+  if(countdown <= 0){
+    clearInterval(countdownInterval);
+    visitTelegram();
+  }
+},1000);
+</script>
+</body>
+</html>
